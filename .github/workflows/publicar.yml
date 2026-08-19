@@ -7,6 +7,7 @@ on:
     branches: [main]
     paths:
       - "*.xlsx"
+      - "consulta_estoque_mhc_template.html"
   workflow_dispatch: {}
 
 # Permissão pra o workflow poder commitar o HTML gerado de volta no repositório.
